@@ -18,7 +18,7 @@ Database menggunakan sqlite jadi database sudah include di dalam project tanpa p
 
 ## Menjalankan Aplikasi
 1. install php versi 7.4 keatas
-2. di root folder jalankan perintah <code>php spark serve</code>.
+2. di root project jalankan perintah <code>php spark serve</code>.
 3. buka <code>http://localhost:8080</code> di browser.
 
 ## Persyaratan Server
