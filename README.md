@@ -27,8 +27,9 @@ PHP versi 7.4 atau lebih tinggi diperlukan, dengan ekstensi berikut yang terinst
 
 - [intl](http://php.net/manual/id/intl.requirements.php)
 - [mbstring](http://php.net/manual/id/mbstring.installation.php)
-Pastikan juga bahwa ekstensi berikut diaktifkan dalam PHP Anda:
 
+
+Pastikan juga bahwa ekstensi berikut diaktifkan dalam PHP Anda:
 - json (diaktifkan secara default - jangan turn it off)
 - [mysqlnd](http://php.net/manual/id/mysqlnd.install.php) jika Anda ingin menggunakan MySQL
 - [libcurl](http://php.net/manual/id/curl.requirements.php) jika Anda ingin menggunakan library HTTP\CURLRequest
