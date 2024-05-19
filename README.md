@@ -1,5 +1,5 @@
 # UTS Pemograman Mobile
-- Nama : Alief Cahyo Utomo
+- Nama : Irfan Eka Nanda
 - NPM  : 2113030040 / 3D
 
 ## Aplikasi Database Mahasiswa Sederhana
