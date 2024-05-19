@@ -1,7 +1,6 @@
 # UTS Pemograman Mobile
 - Nama : Alief Cahyo Utomo
-- Kelas : 3D
-- NPM : 2113030101
+- NPM  : 2113030040 / 3D
 
 ## Aplikasi Database Mahasiswa Sederhana
 Aplikasi database sederhana 2 Tabel yang dibagun dengan framework codeigniter 4 sebagai backend dan jquery mobile sebagai frontend. Dengan database sqlte.
