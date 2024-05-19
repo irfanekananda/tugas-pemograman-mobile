@@ -5,7 +5,7 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+$routes->get('/', 'MahasiswaWithKelasController::index');
 $routes->get('/dashboard', 'Dashboard::index');
 $routes->get('/jqm_form', 'Mahasiswa::jqm_form');
 
@@ -35,5 +35,18 @@ $routes->get('/mahasiswa', 'Mahasiswa::index');
 $routes->get('/mahasiswa/(:num)', 'Mahasiswa::read/$1');
 $routes->post('/mahasiswa', 'Mahasiswa::create');
 $routes->put('/mahasiswa/(:num)', 'Mahasiswa::update/$1');
+
+$routes->get('/mahasiswa/update/(:num)', 'Mahasiswa::update_get/$1');
+$routes->post('/mahasiswa/update/(:num)', 'Mahasiswa::update_post/$1');
+
+$routes->get('/mahasiswa/delete/(:num)', 'Mahasiswa::delete_get/$1');
 $routes->delete('/mahasiswa/(:num)', 'Mahasiswa::delete/$1');
+
+
+// list jadwal
+$routes->get('/list_jadwal','JadwalController::index');
+$routes->post('/list_jadwal','JadwalController::create');
+$routes->get('/list_jadwal_edit/(:num)','JadwalController::edit_index/$1');
+$routes->post('/list_jadwal_edit/(:num)','JadwalController::edit_post/$1');
+$routes->get('/list_jadwal_delete/(:num)','JadwalController::delete/$1');
 
